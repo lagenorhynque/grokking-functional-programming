@@ -25,6 +25,7 @@ source-repository head
 
 library
   exposed-modules:
+      Ch01_Intro
       Lib
   other-modules:
       Paths_grokkingfp_in_haskell
