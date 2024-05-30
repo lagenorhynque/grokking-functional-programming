@@ -26,6 +26,8 @@ source-repository head
 library
   exposed-modules:
       Ch01_Intro
+      Ch02_TestingPureFunctions
+      Ch02_TipCalculator
       Lib
   other-modules:
       Paths_grokkingfp_in_haskell
@@ -56,6 +58,7 @@ test-suite grokkingfp-in-haskell-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      Ch02_TestingPureFunctionsSpec
       Paths_grokkingfp_in_haskell
   autogen-modules:
       Paths_grokkingfp_in_haskell
@@ -65,4 +68,5 @@ test-suite grokkingfp-in-haskell-test
   build-depends:
       base >=4.7 && <5
     , grokkingfp-in-haskell
+    , hspec
   default-language: Haskell2010
