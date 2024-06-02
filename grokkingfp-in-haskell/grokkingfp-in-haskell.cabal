@@ -28,6 +28,8 @@ library
       Ch01_Intro
       Ch02_TestingPureFunctions
       Ch02_TipCalculator
+      Ch03_AbbreviateNames
+      Ch03_SlicingAndAppending
       Lib
   other-modules:
       Paths_grokkingfp_in_haskell
@@ -59,6 +61,8 @@ test-suite grokkingfp-in-haskell-test
   main-is: Spec.hs
   other-modules:
       Ch02_TestingPureFunctionsSpec
+      Ch03_AbbreviateNamesSpec
+      Ch03_SlicingAndAppendingSpec
       Paths_grokkingfp_in_haskell
   autogen-modules:
       Paths_grokkingfp_in_haskell
