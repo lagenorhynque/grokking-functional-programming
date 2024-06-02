@@ -30,6 +30,8 @@ library
       Ch02_TipCalculator
       Ch03_AbbreviateNames
       Ch03_SlicingAndAppending
+      Ch04_PassingFunctions
+      Ch04_WordScoring
       Lib
   other-modules:
       Paths_grokkingfp_in_haskell
@@ -63,6 +65,8 @@ test-suite grokkingfp-in-haskell-test
       Ch02_TestingPureFunctionsSpec
       Ch03_AbbreviateNamesSpec
       Ch03_SlicingAndAppendingSpec
+      Ch04_PassingFunctionsSpec
+      Ch04_WordScoringSpec
       Paths_grokkingfp_in_haskell
   autogen-modules:
       Paths_grokkingfp_in_haskell
