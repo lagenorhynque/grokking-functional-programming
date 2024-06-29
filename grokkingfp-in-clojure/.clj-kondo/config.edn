@@ -1,0 +1,4 @@
+{:lint-as {cats.core/alet clojure.core/for
+           cats.core/mlet clojure.core/for
+           clojure.test.check.clojure-test/defspec clojure.test/deftest
+           clojure.test.check.properties/for-all clojure.core/for}}

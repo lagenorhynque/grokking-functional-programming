@@ -1,5 +1,6 @@
 {:paths ["src" "resources"]
- :deps {org.clojure/clojure {:mvn/version "1.11.3"}}
+ :deps {funcool/cats {:mvn/version "2.4.2"}
+        org.clojure/clojure {:mvn/version "1.11.3"}}
  :aliases
  {:test
   {:extra-paths ["test"]

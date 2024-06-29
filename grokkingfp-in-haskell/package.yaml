@@ -46,6 +46,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - grokkingfp-in-haskell
+    - containers
 
 tests:
   grokkingfp-in-haskell-test:
@@ -57,4 +58,5 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - grokkingfp-in-haskell
+    - containers
     - hspec

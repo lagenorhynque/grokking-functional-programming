@@ -33,6 +33,10 @@ library
       Ch04_PassingFunctions
       Ch04_ReturningFunctions
       Ch04_WordScoring
+      Ch05_BookFriendRecommendations
+      Ch05_Events
+      Ch05_Points2d3d
+      Ch05_PointsInsideCircles
       Lib
   other-modules:
       Paths_grokkingfp_in_haskell
@@ -56,6 +60,7 @@ executable grokkingfp-in-haskell-exe
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , containers
     , grokkingfp-in-haskell
   default-language: Haskell2010
 
@@ -69,6 +74,11 @@ test-suite grokkingfp-in-haskell-test
       Ch04_PassingFunctionsSpec
       Ch04_ReturningFunctionsSpec
       Ch04_WordScoringSpec
+      Ch05_BookFriendRecommendationsSpec
+      Ch05_EventsSpec
+      Ch05_Points2d3dSpec
+      Ch05_PointsInsideCirclesSpec
+      Ch05_RandomForComprehensionsSpec
       Paths_grokkingfp_in_haskell
   autogen-modules:
       Paths_grokkingfp_in_haskell
@@ -77,6 +87,7 @@ test-suite grokkingfp-in-haskell-test
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , containers
     , grokkingfp-in-haskell
     , hspec
   default-language: Haskell2010
